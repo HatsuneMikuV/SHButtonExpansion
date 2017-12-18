@@ -13,6 +13,8 @@
 		7CF7A2A01FE76BC4007C9770 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7CF7A29F1FE76BC4007C9770 /* Assets.xcassets */; };
 		7CF7A2A31FE76BC4007C9770 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7CF7A2A11FE76BC4007C9770 /* LaunchScreen.storyboard */; };
 		7CF7A2A61FE76BC4007C9770 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CF7A2A51FE76BC4007C9770 /* main.m */; };
+		7CF7A2AE1FE76D06007C9770 /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CF7A2AD1FE76D06007C9770 /* TestViewController.m */; };
+		7CF7A2B11FE76D40007C9770 /* UIButton+SHButtonExpansion.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CF7A2B01FE76D40007C9770 /* UIButton+SHButtonExpansion.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,10 @@
 		7CF7A2A21FE76BC4007C9770 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7CF7A2A41FE76BC4007C9770 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7CF7A2A51FE76BC4007C9770 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7CF7A2AC1FE76D06007C9770 /* TestViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
+		7CF7A2AD1FE76D06007C9770 /* TestViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
+		7CF7A2AF1FE76D40007C9770 /* UIButton+SHButtonExpansion.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIButton+SHButtonExpansion.h"; sourceTree = "<group>"; };
+		7CF7A2B01FE76D40007C9770 /* UIButton+SHButtonExpansion.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIButton+SHButtonExpansion.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +68,10 @@
 				7CF7A2971FE76BC4007C9770 /* AppDelegate.m */,
 				7CF7A2991FE76BC4007C9770 /* ViewController.h */,
 				7CF7A29A1FE76BC4007C9770 /* ViewController.m */,
+				7CF7A2AC1FE76D06007C9770 /* TestViewController.h */,
+				7CF7A2AD1FE76D06007C9770 /* TestViewController.m */,
+				7CF7A2AF1FE76D40007C9770 /* UIButton+SHButtonExpansion.h */,
+				7CF7A2B01FE76D40007C9770 /* UIButton+SHButtonExpansion.m */,
 				7CF7A29C1FE76BC4007C9770 /* Main.storyboard */,
 				7CF7A29F1FE76BC4007C9770 /* Assets.xcassets */,
 				7CF7A2A11FE76BC4007C9770 /* LaunchScreen.storyboard */,
@@ -144,6 +154,8 @@
 			files = (
 				7CF7A29B1FE76BC4007C9770 /* ViewController.m in Sources */,
 				7CF7A2A61FE76BC4007C9770 /* main.m in Sources */,
+				7CF7A2B11FE76D40007C9770 /* UIButton+SHButtonExpansion.m in Sources */,
+				7CF7A2AE1FE76D06007C9770 /* TestViewController.m in Sources */,
 				7CF7A2981FE76BC4007C9770 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
